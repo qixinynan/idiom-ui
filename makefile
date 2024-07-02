@@ -3,4 +3,4 @@ run:
 ui:
 	pyside6-uic form.ui -o ui_form.py
 build:
-	pyinstaller -F -w widget.py -n Idiom
+	pyinstaller -F -w widget.py -i ./icon.ico -n 成语PPT生成系统

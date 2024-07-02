@@ -17,7 +17,7 @@ class Widget(QWidget):
         self.data = []
         self.samples = []
 
-        self.setWindowTitle("成语PPT生成系统")
+        self.setWindowTitle("成语PPT生成系统 IdiomUI")
 
         main_layout = QVBoxLayout()
 
